@@ -20,7 +20,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
         {
             MimeMessage mimeMessage = new MimeMessage();
 
-            MailboxAddress mailboxAddressFrom = new MailboxAddress("Admin", "d34597206@gmail.com");
+            MailboxAddress mailboxAddressFrom = new MailboxAddress("Admin", "");
 
             mimeMessage.From.Add(mailboxAddressFrom);
 
@@ -45,4 +45,5 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
 
     }
 }
+
 
