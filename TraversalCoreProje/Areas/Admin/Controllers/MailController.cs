@@ -36,7 +36,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
             SmtpClient client = new SmtpClient();
             client.Connect("smtp.gmail.com", 587,SecureSocketOptions.StartTls);
 
-            client.Authenticate("d34597206@gmail.com", "sicgghqaxffmpblt");
+            client.Authenticate("", "");
             client.Send(mimeMessage);
             client.Disconnect(true);
             return View();
@@ -45,3 +45,4 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
 
     }
 }
+
